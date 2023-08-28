@@ -1,0 +1,105 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap'); */
+
+*{
+ font-family: "Poppins",cursive;
+margin: 0;
+padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  width: 100vw;
+  height: 7vh;
+  background-color: rgb(99, 99, 100);
+}
+
+nav ul{
+  display: flex;
+  float: right;
+  margin-right: 150px;
+}
+nav ul li {
+padding:  12px;
+list-style: none;
+}
+
+nav   h3{
+  margin-left: 100px;
+  padding: 8px;
+  float: left;
+}
+img{
+  height: 20px;
+  width: 20px;
+ }
+
+h2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 1rem 5rem;
+ margin-top: 2rem;
+ font: bolder;
+}
+
+.calculator{
+  display: flex;
+  margin-top: 4rem;
+  flex-direction: column;
+ margin: auto;
+  height: 1000px;
+  border: 1px solid gray ;
+  max-width: 600px;
+  
+}
+h4{
+  padding: 1rem;
+  font-size: larger;
+  font-weight: bold;
+}
+input{
+  outline: none;
+ /* border: none; */
+
+}
+
+.buttons{
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.tenure{
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(207, 207, 224);
+  border-radius: 30%;
+ 
+  font-weight: bolder;
+  border: white;
+}
+.selected{
+background-color: rgb(84, 84, 173);
+color: white;
+transition: all .5s ease-in-out;
+}
+
+.labels{
+  display: flex;
+  justify-content: space-between;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto ;
+  background-color: rgb(165, 231, 231);
+  padding: 10px;
+}
+
+.lists{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid gray;
+}
+

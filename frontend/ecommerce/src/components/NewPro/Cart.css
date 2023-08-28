@@ -1,0 +1,27 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100%;
+    border-radius: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 20px;
+
+}
+
+.item{
+    
+   padding: 20px;
+   background-color: antiquewhite;
+   text-align: center;
+   border-radius: 5px;
+   cursor: pointer;
+  
+}
+.item > img{
+    height: 60px;
+   
+}

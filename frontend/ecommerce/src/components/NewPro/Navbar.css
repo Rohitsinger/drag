@@ -1,0 +1,66 @@
+.header{
+  position: sticky;
+  top: 0;
+  min-height: 80px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: beige;
+}
+.logo{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(74, 205, 175);
+  padding-left: 40px;
+}
+
+.header-links{
+ display: flex;
+}
+
+.header-links ul li{
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.header-links ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(14, 14, 15);
+  padding: 0px 15px;
+}
+.link{
+  margin-top: 2.4rem;
+}
+/* nav{
+    margin-top: 0 auto;
+    background: rgb(227, 227, 100);
+} */
+/* .logo{
+    color: rgb(107, 72, 212);
+    margin-left: 1rem;
+    
+}
+.links{
+  display: flex;
+ 
+background-color: rgb(57, 172, 149);
+  justify-content: space-between;
+
+height: 100%;
+width: 100%;
+}
+button{
+  background-color: #F5F5F5;
+  margin: 10px 20px;
+  padding: 20px;
+  width: 180px;
+  float: right;
+}
+h1{
+    font-weight: 10;
+} */
